@@ -1,0 +1,22 @@
+/* @theme base */
+
+@import 'default';
+
+section {
+  background: linear-gradient(to bottom, white 98%, #ffb901 2%);
+  color: #111111;
+}
+
+section img.float-l {
+  float: left;
+}
+
+/* 表紙 */
+/* セクションタイトル */
+/* スライド */
+/* プロフィール */
+
+section.profile img.icon {
+  width: 200px;
+  margin-right: 30px;
+}
