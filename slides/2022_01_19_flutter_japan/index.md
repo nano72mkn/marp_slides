@@ -5,18 +5,19 @@ footer: "＠shota1995m"
 paginate: true
 ---
 
-<!-- class: title -->
+<!-- _class: cover -->
 
-# Flutterでアプリをリリースした話
+# 年末年始でFlutterに入門
 
-2021/01/22
 Flutter Japan 年末年始に勉強したLT
+2021/01/22
 
 @shota1995m
 
 ---
 
-<!-- class: profile -->
+<!-- _class: profile -->
+
 # 自己紹介
 
 <img class="float-l icon" src="../../images/icon.jpeg" />宮平 将汰（@shota1995m）
@@ -28,9 +29,20 @@ Flutter Japan 年末年始に勉強したLT
 
 ---
 
-# 今回、Flutterを選んだ理由
+# 目次
 
-React Native使ってたのになんでFlutterを選んだのか
+- Flutterを採用した理由
+- 年末年始に作ったアプリについて
+- FlutterFire がすごかった
+- まとめ
+---
+
+<!-- _class: chapter_cover -->
+
+# Flutterを採用した理由
+
+---
+# なぜ、React Native ではなく Flutter を選んだのか
 
 - 最近盛り上がってきている（もしかしたら、ずっと盛り上がってた？）
 - FlutterとReact Nativeの違いを知りたかった
@@ -38,10 +50,45 @@ React Native使ってたのになんでFlutterを選んだのか
 
 ---
 
-# 年末年始でつくったもの
+<!-- _class: chapter_cover -->
 
-One Line Diary
-
-- １行の日記をつけるアプリです。
+# 年末年始に作ったアプリについて
 
 ---
+
+# One Line Diary というアプリを作った
+
+その名の通り、１行の日記をつけるアプリです。
+
+---
+
+# ページ構成
+
+- ログイン画面
+- 日記一覧
+- 日記追加画面
+- プロフィール画面
+
+4ページだけのシンプルなアプリです。
+
+---
+
+<!-- _class: chapter_cover -->
+
+# FlutterFire がすごい
+
+---
+
+# FlutterFireとは？
+
+---
+
+# ページ構成
+
+- **ログイン画面**
+- 日記一覧
+- 日記追加画面
+- **プロフィール画面**
+
+---
+

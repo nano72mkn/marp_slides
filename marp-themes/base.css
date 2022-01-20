@@ -2,9 +2,29 @@
 
 @import 'default';
 
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;700&display=swap');
+
+* {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
 section {
+  display: flex;
+  justify-content: start;
+  padding: 80px;
   background: linear-gradient(to bottom, white 98%, #ffb901 2%);
   color: #111111;
+}
+
+section h1 {
+  color: #e7ac00;
+  margin-bottom: 50px;
+}
+
+section ul li strong {
+  color: #585858;
+  font-weight: 900;
+  font-size: 35px;
 }
 
 section img.float-l {
@@ -12,7 +32,54 @@ section img.float-l {
 }
 
 /* 表紙 */
+
+section.cover {
+  justify-content: center;
+  text-align: center;
+}
+
+section.cover h1 {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+  margin: 0 auto 30px auto;
+}
+
+section.cover h1::before,
+section.cover h1::after {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  width: 5px;
+  height: 50px;
+  background-color: #e7ac00;
+}
+
+section.cover h1::before {
+  left: -50px;
+  transform: rotate(-45deg);
+}
+
+section.cover h1::after {
+  right: -50px;
+  transform: rotate(45deg);
+}
+
 /* セクションタイトル */
+
+section.chapter_cover {
+  justify-content: center;
+  padding: 0;
+}
+
+section.chapter_cover h1 {
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  background-color: #e7ac00;
+}
+
 /* スライド */
 /* プロフィール */
 
